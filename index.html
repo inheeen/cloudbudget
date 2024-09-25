@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- первая секция -->
-     <section class="main-section">
+      <section class="main-section">
         <div class="main-section__nav-container container">
           <img src="./src/icons/dashicons-cloud.png" alt="" class="main-section__logo">
           <p class="main-section__logo-title">CloudBudget</p>
@@ -21,16 +21,16 @@
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active nav-text" aria-current="page" href="#shop"><p class="navbar__text">ОБЗОР</p></a>
+                        <a class="nav-link active nav-text" aria-current="page" href="#look"><p class="navbar__text">ОБЗОР</p></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="#"><p class="navbar__text">ОСОБЕННОСТИ</p></a>
+                        <a class="nav-link nav-text" href="#opportunity"><p class="navbar__text">ВОЗМОЖНОСТИ</p></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="#story"><p>ТЕХНОЛОГИЯ</p></a>
+                        <a class="nav-link nav-text" href="#tech"><p>ТЕХНОЛОГИЯ</p></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="#"><p>КОНТАКТЫ</p></a>
+                        <a class="nav-link nav-text" href="#contacts"><p>КОНТАКТЫ</p></a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link nav-text" href="#"><p>ВОЙТИ</p></a>
@@ -39,27 +39,171 @@
                   </div>
                 </div>
               </nav>
-          <button class="navbar__btn">вход</button>
+          <button class="navbar__btn">
+            
+          </button>
         </div>
         <div class="main-section__content-container container">
             <h1 class="main-section__title">CloudBudget</h1>
             <p class="main-section__text">Управление бюджетом в для всех. <br> Всего 69,95 € в месяц после 7-дневной <br> пробной версии за 4,99 €</p>
             <button class="main-section__btn">ПОПРОБОВАТЬ</button>
         </div>
-     </section>
+      </section>
      <!-- вторая секция -->
-      <section class="second-section">
+      <section class="second-section" id="look">
         <div class="second-section__content-container container">
           <div class="second-section__left-wrapper">
-            <p class="second-section__title">Простое приложение для управления бюджетом</p>
+            <p class="second-section__title ">Простое приложение для управления бюджетом</p>
             <p class="second-section__text">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет.<br>Читайте ниже, чтобы узнать больше.</p>
-            <a href="" class="second-section__link">Узнать подробнее</a> <!-- сделать либо ссылку на что-то либо модальное окно с доп инфой -->
+            <a href="" class="second-section__link link">Узнать подробнее</a> <!-- сделать либо ссылку на что-то либо модальное окно с доп инфой -->
           </div>
           <div class="second-section__right-wrapper">
             <img src="./src/img/Video_bg.png" alt="" class="second-section__img">
           </div>
         </div>
       </section>
-    <script src="./src/js/bootstrap.bundle.min.js"></script>
+      <!-- третья секция -->
+      <section class="third-section" id="opportunity">
+        <div class="third-section__content-container container">
+          <p class="third-section__title">Возможности</p>
+          <div class="third-section__box-container box-container container">
+            <div class="box-container__info-box info-box">
+              <img src="./src/img/1.png" alt="" class="info-box__img">
+              <div class="info-box__text-box text-box">
+                <p class="text-box__title">Поддерживает все валюты и карты</p>
+                <p class="text-box__text">Мы поддерживаем все популярные валюты и полностью настраиваем, чтобы добавить</p>
+                <a href="" class="text-box__link link">Подробнее</a>
+              </div>
+            </div>
+            <div class="box-container__info-box info-box">
+              <img src="./src/img/2.png" alt="" class="info-box__img">
+              <div class="info-box__text-box text-box">
+                <p class="text-box__title">Управляйте своими расходами на ходу</p>
+                <p class="text-box__text">Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве</p>
+                <a href="" class="text-box__link link">Подробнее</a>
+              </div>
+            </div>
+            <div class="box-container__info-box info-box">
+              <img src="./src/img/3.png" alt="" class="info-box__img">
+              <div class="info-box__text-box text-box">
+                <p class="text-box__title">Управление бюджетом осуществляется в облаке</p>
+                <p class="text-box__text">Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом. </p>
+                <a href="" class="text-box__link link">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- четвертая секция -->
+      <section class="four-section" id="tech">
+        <div class="four-section__content-container conteiner">
+          <p class="four-section__title">Технологии</p>
+          <div class="four-section__info-container info-container container">
+            <div class="info-container__information-box information-box">
+              <p class="information-box__num">01</p>
+              <div class="information-box__text-container text-container">
+                <img src="./src/icons/1.png" alt="" class="information-box__img">
+                <p class="text-container__title">Облачное хранение</p>
+                <p class="text-container__text">Доступ из любой точки мира с любого устройства</p>
+              </div>
+            </div>
+            <div class="info-container__information-box information-box">
+              <p class="information-box__num">02</p>
+              <div class="information-box__text-container text-container">
+                <img src="./src/icons/2.png" alt="" class="information-box__img">
+                <p class="text-container__title">Безопасность</p>
+                <p class="text-container__text">Вся  информация хранится на защищенных облачных серверах</p>
+              </div>
+            </div>
+            <div class="info-container__information-box information-box">
+              <p class="information-box__num">03</p>
+              <div class="information-box__text-container text-container">
+                <img src="./src/icons/3.png" alt="" class="information-box__img">
+                <p class="text-container__title">PDF Отчеты</p>
+                <p class="text-container__text">Скачивайте ваши отчеты в удобном формате PDF</p>
+              </div>
+            </div>
+            <div class="info-container__information-box information-box">
+              <p class="information-box__num">04</p>
+              <div class="information-box__text-container text-container">
+                <img src="./src/icons/4.png" alt="" class="information-box__img">
+                <p class="text-container__title">CSV Отчеты</p>
+                <p class="text-container__text">Скачивайте ваши отчеты в удобном формате CSV</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- пятая секиця -->
+      <section class="five-section">
+        <div class="five-section__content-container container">
+          <div class="five-section__left-wrapper">
+            <p class="five-section__title">Сосредоточьтесь на экономии денег</p>
+            <p class="five-section__text">Мы помогаем вам отслеживать ваши привычки в расходах, чтобы вы могли легко определить и сократить ненужные расходы. Просто присоединяйтесь сегодня, чтобы начать!</p>
+            <div class="five-section__social-box">
+              <a href="https://play.google.com/store/apps?hl=ru&pli=1"  target="_blank"  class="five-section__link">
+                <img src="./src/icons/ion-logo-google-playstore.png" alt="" class="five-section__link-img">
+              </a>
+              <a href="https://www.apple.com/app-store/" target="_blank" class="five-section__link">
+                <img src="./src/icons/ion-logo-apple-appstore.png" alt="" class="five-section__link-img">
+              </a>
+            </div>
+          </div>
+          <div class="five-section__right-wrapper">
+            <img src="./src/img/4.png" alt="" class="five-section__img">
+          </div>
+        </div>
+      </section>
+      <!-- шестая секция -->
+      <section class="six-section" id="contacts">
+        <div class="six-section__content-container container">
+          <div class="six-section__left-wrapper">
+            <p class="six-section__title">Напишите нам</p>
+            <p class="six-section__text">Остались вопросы или опасения? Просто заполните форму ниже, и наша служба поддержки свяжется с вами в течение 24 часов.</p>
+          </div>
+          <div class="six-section__right-wrapper">
+            <!-- сделать форму для отправки писем на почту так чтобы она реально работала блять........ -->
+            <form action="send.php" class="form" method="post">
+              <input type="text" class="six-section__input" name="fio" placeholder="Имя" required>
+              <input type="text" class="six-section__input" name="email" placeholder="E-mail" required>
+              <input type="submit" class="six-section__btn" value="Отправить">
+            </form>
+            
+          </div>
+        </div>
+      </section>
+      <!-- подвал -->
+      <footer class="footer">
+        <div class="footer__content-container container">
+          <p class="footer__title">Адрес</p>
+          <div class="footer__text-box">
+            <p class="footer__text">Pipang Ltd, Griva Digeni,</p>
+            <p class="footer__text">81-83 Jacovides Tower, 1st Floor</p>
+            <p class="footer__text">1090 Picosia USA</p>
+          </div>
+          <p class="footer__text">Copyright 2021 CloudBudget</p>
+        </div>
+      </footer>
+
+      <!-- модальное окно -->
+
+      <div class="container">
+        <h1>fcsewf</h1>
+      </div>
+
+
+      <div class="modal">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet magnam minus unde, distinctio nemo quas cumque nam veritatis nulla quisquam aut ipsam sunt, a voluptas reiciendis dicta deserunt odit facere.</p>
+
+       </div>
+       <div class="modal-window">
+        <div class="modal-window__box box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloremque minus nemo esse aspernatur veritatis provident consequuntur vel similique, commodi hic reprehenderit quod ab ratione animi temporibus odio natus saepe.</p>
+        </div>
+       </div>
+
+
+    <!-- <script src="./src/js/bootstrap.bundle.min.js"></script> -->
+    
 </body>
 </html>
