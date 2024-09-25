@@ -11,6 +11,8 @@
     <!-- первая секция -->
      <section class="main-section">
         <div class="main-section__nav-container container">
+          <img src="./src/icons/dashicons-cloud.png" alt="" class="main-section__logo">
+          <p class="main-section__logo-title">CloudBudget</p>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
@@ -19,21 +21,25 @@
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active nav-text" aria-current="page" href="#shop"><p class="navbar__text">Shop</p></a>
+                        <a class="nav-link active nav-text" aria-current="page" href="#shop"><p class="navbar__text">ОБЗОР</p></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="#"><p class="navbar__text">The Edit</p></a>
+                        <a class="nav-link nav-text" href="#"><p class="navbar__text">ОСОБЕННОСТИ</p></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="#story">Our Story</a>
+                        <a class="nav-link nav-text" href="#story"><p>ТЕХНОЛОГИЯ</p></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Reviews</a>
+                        <a class="nav-link nav-text" href="#"><p>КОНТАКТЫ</p></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-text" href="#"><p>ВОЙТИ</p></a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </nav>
+          <button class="navbar__btn">вход</button>
         </div>
         <div class="main-section__content-container container">
             <h1 class="main-section__title">CloudBudget</h1>
@@ -41,6 +47,19 @@
             <button class="main-section__btn">ПОПРОБОВАТЬ</button>
         </div>
      </section>
+     <!-- вторая секция -->
+      <section class="second-section">
+        <div class="second-section__content-container container">
+          <div class="second-section__left-wrapper">
+            <p class="second-section__title">Простое приложение для управления бюджетом</p>
+            <p class="second-section__text">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет.<br>Читайте ниже, чтобы узнать больше.</p>
+            <a href="" class="second-section__link">Узнать подробнее</a> <!-- сделать либо ссылку на что-то либо модальное окно с доп инфой -->
+          </div>
+          <div class="second-section__right-wrapper">
+            <img src="./src/img/Video_bg.png" alt="" class="second-section__img">
+          </div>
+        </div>
+      </section>
     <script src="./src/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
