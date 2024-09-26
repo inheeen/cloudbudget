@@ -489,7 +489,6 @@ table {
 }
 
 .navbar__btn {
-  position: fixed;
   border: 1px solid #fff;
   background-color: transparent;
   text-transform: uppercase;
@@ -808,6 +807,7 @@ table {
 }
 
 .modal-window__box {
+  position: relative;
   max-width: 500px;
   padding: 45px;
   margin: 30px 15px;
@@ -821,6 +821,20 @@ table {
   transition: transform .8s;
 }
 
+.modal-window__btn {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.modal-window__close-btn {
+  width: 28px;
+}
+
 .modal-window.open {
   visibility: visible;
   opacity: 1;
@@ -828,4 +842,36 @@ table {
 
 .box.open {
   transform: scale(1);
+  border-radius: 5px;
+}
+
+.modal-window-undes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-window-title {
+  font-size: 14px;
+  font-family: "pro";
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modal-window-input {
+  margin-bottom: 20px;
+  height: 30px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+}
+
+.forma-vkhoda {
+  color: #ED4C5C;
+  text-decoration: none;
+  font-family: "roboto";
+}
+
+.forma-vkhoda:hover {
+  text-decoration: underline;
+  color: #ED4C5C;
 }

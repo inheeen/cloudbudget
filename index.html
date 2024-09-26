@@ -39,9 +39,12 @@
                   </div>
                 </div>
               </nav>
-          <button class="navbar__btn">
-            
+          <button class="navbar__btn" id="modal-window-btn">
+            <p class="navbar__btn-text">Войти</p>
           </button>
+          <!-- <button class="navbar__buttontn" id="modal-window-button"></button>
+            <p class="navbar__btn-text">Регистрация</p>
+          </button> -->
         </div>
         <div class="main-section__content-container container">
             <h1 class="main-section__title">CloudBudget</h1>
@@ -187,23 +190,36 @@
 
       <!-- модальное окно -->
 
-      <div class="container">
-        <h1>fcsewf</h1>
-      </div>
 
 
       <div class="modal">
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet magnam minus unde, distinctio nemo quas cumque nam veritatis nulla quisquam aut ipsam sunt, a voluptas reiciendis dicta deserunt odit facere.</p>
 
        </div>
-       <div class="modal-window">
-        <div class="modal-window__box box">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloremque minus nemo esse aspernatur veritatis provident consequuntur vel similique, commodi hic reprehenderit quod ab ratione animi temporibus odio natus saepe.</p>
+       <div class="modal-window" id="my-modal-window">
+        <div class="modal-window__box box" id="my-box">
+          <button id="close-modal-window" class="modal-window__btn">
+            <img src="./src/icons/close-circle-line.svg" alt="" class="modal-window__close-btn">
+          </button>
+          <!-- наполнение модального окна -->
+          <div class="modal-window-inside" aria-hidden="true">
+            <div class="modal-window-undes">
+            <div class="modal-window-header">
+            <h2 class="modal-window-title">Войдите в свой аккаунт</h2>
+            </div>
+            <div class="modal-window-body">
+            <input type="text" name="user" class="modal-window-input" placeholder="Имя пользователя" size="20" /><br>
+            <input type="password" name="pass" class="modal-window-input" placeholder="Пароль" size="20" /></div>
+            <div class="modal-window-footer">
+             
+            <a href="#" class="forma-vkhoda">Авторизоваться</a>
+            </div>
+            </div>
+          </div>
         </div>
        </div>
-
-
     <!-- <script src="./src/js/bootstrap.bundle.min.js"></script> -->
-    
+    <script defer src="./src/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </body>
 </html>

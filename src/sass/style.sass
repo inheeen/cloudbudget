@@ -78,7 +78,6 @@ $accent: #ED4C5C
 .navbar
     margin-right: 160px
     &__btn
-        position: fixed
         border: 1px solid $white
         background-color: transparent
         text-transform: uppercase
@@ -322,6 +321,7 @@ $accent: #ED4C5C
     opacity: 0
     transition: opacity .4s, visibility .4s //добавляет анимацию
     &__box
+        position: relative
         max-width: 500px
         padding: 45px
         margin: 30px 15px
@@ -333,6 +333,17 @@ $accent: #ED4C5C
         box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2)
         transform: scale(0) //уменьшает элемент до 0
         transition: transform .8s
+    &__btn
+        border: none
+        background-color: transparent
+        padding: 10px
+        position: absolute
+        top: 12px
+        right: 12px
+        cursor: pointer //при наведении курсора он меняется 
+    &__close-btn
+        width: 28px
+         
 
 .modal-window.open
     visibility: visible //элемент показывается
@@ -340,3 +351,29 @@ $accent: #ED4C5C
         
 .box.open
     transform: scale(1)
+    border-radius: 5px
+
+.modal-window-undes
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.modal-window-title
+    font-size: 14px
+    font-family: "pro"
+    padding-top: 20px
+    margin-bottom: 20px
+
+.modal-window-input
+    margin-bottom: 20px
+    height: 30px
+    border: 1px solid #333333
+    border-radius: 4px
+
+.forma-vkhoda
+    color: $accent
+    text-decoration: none
+    font-family: "roboto"
+    &:hover
+        text-decoration: underline
+        color: $accent
