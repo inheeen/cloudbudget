@@ -11,8 +11,10 @@
     <!-- первая секция -->
       <section class="main-section">
         <div class="main-section__nav-container container">
-          <img src="./src/icons/dashicons-cloud.png" alt="" class="main-section__logo">
+          <div class="main-section__logo-container">
+            <img src="./src/icons/dashicons-cloud.png" alt="" class="main-section__logo">
           <p class="main-section__logo-title">CloudBudget</p>
+          </div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
@@ -78,7 +80,7 @@
                 <a href="" class="text-box__link link">Подробнее</a>
               </div>
             </div>
-            <div class="box-container__info-box info-box">
+            <div class="box-container__info-box info-box second-info-box">
               <img src="./src/img/2.png" alt="" class="info-box__img">
               <div class="info-box__text-box text-box">
                 <p class="text-box__title">Управляйте своими расходами на ходу</p>
@@ -86,7 +88,7 @@
                 <a href="" class="text-box__link link">Подробнее</a>
               </div>
             </div>
-            <div class="box-container__info-box info-box">
+            <div class="box-container__info-box info-box third-info-box">
               <img src="./src/img/3.png" alt="" class="info-box__img">
               <div class="info-box__text-box text-box">
                 <p class="text-box__title">Управление бюджетом осуществляется в облаке</p>
@@ -110,7 +112,7 @@
                 <p class="text-container__text">Доступ из любой точки мира с любого устройства</p>
               </div>
             </div>
-            <div class="info-container__information-box information-box">
+            <div class="info-container__information-box information-box down-information-box">
               <p class="information-box__num">02</p>
               <div class="information-box__text-container text-container">
                 <img src="./src/icons/2.png" alt="" class="information-box__img">
@@ -126,7 +128,7 @@
                 <p class="text-container__text">Скачивайте ваши отчеты в удобном формате PDF</p>
               </div>
             </div>
-            <div class="info-container__information-box information-box">
+            <div class="info-container__information-box information-box down-information-box">
               <p class="information-box__num">04</p>
               <div class="information-box__text-container text-container">
                 <img src="./src/icons/4.png" alt="" class="information-box__img">
@@ -211,8 +213,9 @@
             <input type="text" name="user" class="modal-window-input" placeholder="Имя пользователя" size="20" /><br>
             <input type="password" name="pass" class="modal-window-input" placeholder="Пароль" size="20" /></div>
             <div class="modal-window-footer">
-             
-            <a href="#" class="forma-vkhoda">Авторизоваться</a>
+            <button class="forma-vkhoda__btn" >
+              <a href="#" class="forma-vkhoda">Авторизоваться</a>
+            </button>
             </div>
             </div>
           </div>
